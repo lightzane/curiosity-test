@@ -1,0 +1,19 @@
+{
+  "name": "curiosity-test",
+  "version": "1.0.0",
+  "description": "This is a project is used with 'Curiosity' sample web application.\r This project contains Cypress 9.2.0 only",
+  "scripts": {
+    "postinstall": "npm run verify",
+    "start": "cypress open",
+    "background": "cypress run",
+    "clear": "cypress cache clear",
+    "cy:install": "cypress install",
+    "cy:install:force": "cypress install --force",
+    "verify": "cypress verify"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "9.2.0",
+    "typescript": "^4.9.5"
+  }
+}
